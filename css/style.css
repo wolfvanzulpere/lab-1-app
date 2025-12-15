@@ -5,6 +5,10 @@
   --blauw: #7FA8A0;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 html{
     font-family: Agrandir;
@@ -109,11 +113,20 @@ a {
 }
 
 .main-shop h2{
+    margin-top: 40px;
     font-weight: normal;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    margin-bottom: 5px;
 }
 
 .products-shop{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: inline-grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    justify-content: center;
+}
+
+.products-shop img{
+    width: 43vw;
+    height: auto;
 }
