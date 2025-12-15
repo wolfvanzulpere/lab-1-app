@@ -130,3 +130,7 @@ a {
     width: 43vw;
     height: auto;
 }
+
+.products-shop a{
+    height: 43vw;
+}
