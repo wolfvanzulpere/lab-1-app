@@ -94,7 +94,7 @@ a {
     height: 38px;
 }
 
-.header-shop {
+.header-shop, .header-saved {
     background-color: var(--groen);
     display: flex;
     justify-content: start;
@@ -105,7 +105,7 @@ a {
     border-bottom-right-radius: 25px;
 }
 
-.header-shop h1{
+.header-shop h1, .header-saved h1{
     color: white;
     font-size: 1.3em;
     font-weight: normal;
@@ -137,4 +137,25 @@ a {
 
 .products-shop a{
     height: 43vw;
+}
+
+.heart-saved{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 20px;
+}
+
+.btn-saved a {
+    color: black;
+    background-color: var(--blauw);
+    padding: 6px 25px;
+    border-radius: 100px;
+    font-size: 1.2em;
+}
+
+.btn-saved {
+    display: flex;
+    justify-content: center;
 }
