@@ -1,3 +1,20 @@
+:root {
+  --groen: #8e8c6f;
+  --beige: #f3e8d2;
+  --offwhite: #FFFAEF;
+  --blauw: #7FA8A0;
+}
+
+
+html{
+    font-family: Agrandir;
+    background-color: var(--offwhite);
+}
+
+a {
+    text-decoration: none;
+}
+
 #loading-page {
   background-color: hsla(15, 48%, 58%, 1);
   background-image: radial-gradient(
@@ -15,4 +32,44 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header-main {
+    background-color: var(--groen);
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: end;
+    padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.header-main img{
+    width: 60vw;
+    height: auto;
+}
+
+.main-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-main p {
+    text-align: center;
+    max-width: 85vw;
+    height: auto;
+    padding: 18px 0;
+}
+
+.main-main img {
+    max-width: 90vw;
+}
+
+.main-main a {
+    color: black;
+    background-color: var(--blauw);
+    padding: 8px 15px;
+    border-radius: 100px;
 }
