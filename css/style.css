@@ -94,7 +94,7 @@ a {
     height: 38px;
 }
 
-.header-shop, .header-saved {
+.header-shop, .header-saved, .header-profile {
     background-color: var(--groen);
     display: flex;
     justify-content: start;
@@ -105,7 +105,7 @@ a {
     border-bottom-right-radius: 25px;
 }
 
-.header-shop h1, .header-saved h1{
+.header-shop h1, .header-saved h1, .header-profile h1{
     color: white;
     font-size: 1.3em;
     font-weight: normal;
@@ -156,6 +156,67 @@ a {
 }
 
 .btn-saved {
+    display: flex;
+    justify-content: center;
+}
+
+.pfp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.pfp img{
+    margin-bottom: 15px;
+}
+
+.pfp h2{
+    margin-bottom: 15px;
+}
+
+.pfp a{
+    margin-bottom: 15px;
+    color: black;
+    border: solid black 1px;
+    border-radius: 100px;
+    padding: 5px 10px;
+}
+
+.lijn-profile{
+    width: 90vw;
+    padding: 1px;
+    background-color: black;
+    border-radius: 100px;
+    margin: 10px 0;
+}
+
+.settings-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-profile h2 {
+    font-weight: normal;
+}
+
+.main-profile h3 {
+    font-weight: normal;
+}
+
+.btn-profile a{
+    color: black;
+    background-color: var(--blauw);
+    padding: 6px 25px;
+    border-radius: 100px;
+    font-size: 1.2em;
+}
+
+.btn-profile {
+    margin: 50px 0;
     display: flex;
     justify-content: center;
 }
