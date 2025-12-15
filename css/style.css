@@ -85,3 +85,35 @@ a {
     width: 85%;
     height: auto;
 }
+
+.header-shop {
+    background-color: var(--groen);
+    display: flex;
+    justify-content: start;
+    height: 10px;
+    align-items: center;
+    padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.header-shop h1{
+    color: white;
+    font-size: 1.3em;
+    font-weight: normal;
+    margin: 0;
+}
+
+.main-shop{
+    margin: 15px;
+}
+
+.main-shop h2{
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+.products-shop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
