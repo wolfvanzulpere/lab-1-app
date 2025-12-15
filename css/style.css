@@ -1,0 +1,18 @@
+#loading-page {
+  background-color: hsla(15, 48%, 58%, 1);
+  background-image: radial-gradient(
+      at 86% 22%,
+      hsla(15, 48%, 58%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 8% 80%, hsla(56, 12%, 49%, 1) 0px, transparent 50%),
+    radial-gradient(at 83% 84%, hsla(32, 23%, 62%, 1) 0px, transparent 50%),
+    radial-gradient(at 10% 16%, hsla(168, 19%, 57%, 1) 0px, transparent 50%);
+}
+
+.logo-loading {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
