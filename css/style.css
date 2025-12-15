@@ -70,6 +70,18 @@ a {
 .main-main a {
     color: black;
     background-color: var(--blauw);
-    padding: 8px 15px;
+    padding: 6px 25px;
     border-radius: 100px;
+    font-size: 1.2em;
+}
+
+.nav-main{
+    padding: 40px 0 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-main img{
+    width: 85%;
+    height: auto;
 }
