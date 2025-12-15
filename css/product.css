@@ -52,10 +52,36 @@ section {
 }
 
 .nav-products img{
-    width: 85%;
+    width: 38px;
     height: auto;
+}
+
+.nav-products a{
+    height: 38px;
 }
 
 main p{
     font-size: .75em;
+}
+
+.links{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 10px
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    border: solid black 1px;
+    border-radius: 100px;
+    padding: 3px 8px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

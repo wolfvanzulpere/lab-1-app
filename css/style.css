@@ -86,8 +86,12 @@ a {
 }
 
 .nav-main img{
-    width: 85%;
+    width: 38px;
     height: auto;
+}
+
+.nav-main a{
+    height: 38px;
 }
 
 .header-shop {
