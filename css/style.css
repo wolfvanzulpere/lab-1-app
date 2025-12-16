@@ -79,10 +79,21 @@ a {
     font-size: 1.2em;
 }
 
+main, .products-shop {
+    margin-bottom: 100px;
+}
+
 .nav-main{
-    padding: 40px 0 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px 0 10px;
+    width: 100%;
+    gap: 1em;
     display: flex;
     justify-content: space-around;
+    background-color: var(--offwhite);
+    z-index: 1000;
 }
 
 .nav-main img{
